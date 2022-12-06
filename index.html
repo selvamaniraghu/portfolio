@@ -12,19 +12,28 @@
 <body>
 <!----------side bar---------------->    
     <nav class="side-bar" >
-        <div class="bgimg"><img src="img\profileimg.jpg" alt="Selvamani"></div>
+        <div class="bgimg"><img src="img\smart.jpg" alt="Selvamani"></div>
     </nav>
 <!----------Hiden nav bar----------->
-    <div class="line-3" id="myNav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="over-contant">
-            <a href="#">Home</a>
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </div>
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
     </div>
-    <div class="openbtn" onclick="openNav()">&#9776;</div>
-    <script src="script.js"></script>
+  </div>
+  
+
+<!---------------Header--------------------------------->
+<div class="container">
+    <div class="sub-container">
+        <h1>Selvamani Raghu</h1>
+    </div>
+</div>
+<p>Click on the element below to open the side navigation menu.</p>
+<span class="openbtn" onclick="openNav()">&#9776;</span>
+<script src="script.js"></script>
 </body>
 </html>

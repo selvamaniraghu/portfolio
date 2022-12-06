@@ -1,6 +1,6 @@
 function openNav() {
-    document.getElementById('myNav').display.width = "60%";
+    document.getElementById('myNav').style.width = "70%";
 }
 function closeNav() {
-    document.getElementById('myNav').display.width = "0%";
+    document.getElementById('myNav').style.width = "0%";
 }
